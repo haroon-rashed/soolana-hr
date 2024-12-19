@@ -1,0 +1,74 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+.banner{
+    display: flex;
+    height: 600px;
+    background: linear-gradient(rgba(40, 58, 90, 0.3), rgba(40, 58, 90, 0.2)) 0% 0% / cover, url("bg.png") center center fixed no-repeat;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bg-light-dark{
+background-color: #1B1622;
+}
+.my-img{
+    background: url("https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Ff6af6a440836404080a1919059090128&w=640&q=75") center center/cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+.my-images{
+    background: url("https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F20069e2d57e847369b00aca5a12cdaa2&w=1920&q=75") center center/cover;
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+}
+.parent{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+.child{
+
+
+}
+.child1{
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+.child2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.child3{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.child4{
+    grid-row: 1/3;
+    grid-column: 3/4;
+}
+.bg-img{
+    background: url("https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252F421b60c862fb4c2c9b9dc17ad67ff979&w=1920&q=75") center center/cover;
+}
+.bg-trans{
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.pad{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.navbar{
+    position: sticky;
+    top: 10px;
+    overflow: hidden;
+}
